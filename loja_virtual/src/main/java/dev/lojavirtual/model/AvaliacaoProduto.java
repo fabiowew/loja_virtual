@@ -38,7 +38,6 @@ public class AvaliacaoProduto implements Serializable {
 	private Produto produto;
 
 	
-	
 	public String getDescricao() {
 		return descricao;
 	}
