@@ -37,7 +37,7 @@ public class AvaliacaoProduto implements Serializable {
 	foreignKey = @ForeignKey(value = ConstraintMode.CONSTRAINT, name = "produto_fk"))
 	private Produto produto;
 
-	
+	//Fabio Borges
 	public String getDescricao() {
 		return descricao;
 	}
