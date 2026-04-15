@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @ComponentScan(basePackages = {"loja.virtual.*"})
 @EnableJpaRepositories(basePackages = {"loja.virtual.repository"})
 @EnableTransactionManagement
-public class LojaVirtualApplication {
+public class LojaVirtualApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(LojaVirtualApplication.class, args);
